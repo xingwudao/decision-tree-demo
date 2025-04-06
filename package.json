@@ -1,0 +1,25 @@
+{
+  "name": "decision-tree-demo",
+  "version": "1.0.0",
+  "description": "决策树学习演示项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "d3": "^7.8.5",
+    "ml-cart": "^2.1.1",
+    "next": "^13.4.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
