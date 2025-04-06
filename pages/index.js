@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     // 加载数据
-    Papa.parse('/data.csv', {
+    Papa.parse('./data.csv', {
       download: true,
       header: true,
       transform: (value, field) => {
