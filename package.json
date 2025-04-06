@@ -2,12 +2,13 @@
   "name": "decision-tree-demo",
   "version": "1.0.0",
   "description": "决策树学习演示项目",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^13.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
